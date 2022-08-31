@@ -2,8 +2,11 @@ import java.util.Scanner;
 
 public class Data_Mahasiswa
 {
+    String NIM, Nama, Jenis_Kelamin, Alamat;
     public static void main(String[] args)
     {
+        Data_Mahasiswa data_mahasiswa = new Data_Mahasiswa();
+        
         Scanner Biodata = new Scanner(System.in);
 
         System.out.println("BIODATA MAHASISWA");
@@ -21,6 +24,22 @@ public class Data_Mahasiswa
         System.out.println("Alamat:");
         String Alamat = Biodata.nextLine();
 
+        Biodata.close();
+
+        data_mahasiswa.IsiData(NIM, Nama, Jenis_Kelamin, Alamat);
+        data_mahasiswa.PrintData();
+    }
+
+    public void IsiData(String NIM, String Nama, String Jenis_Kelamin, String Alamat)
+    {
+        this.NIM = NIM;
+        this.Nama = Nama;
+        this.Jenis_Kelamin = Jenis_Kelamin;
+        this.Alamat = Alamat;
+    }
+
+    public void PrintData()
+    {
         System.out.println("\nBIODATA:\n");
         System.out.println("NIM             : " + NIM);
         System.out.println("Nama            : " + Nama);
