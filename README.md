@@ -2,5 +2,5 @@
 
 PRODI INFORMATIKA FATISDA UNS
 
-Nama  : Abdi Santyatmoko \n
+Nama  : Abdi Santyatmoko
 NIM   : M0521001
