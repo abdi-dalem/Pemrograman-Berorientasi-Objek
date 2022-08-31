@@ -54,7 +54,7 @@ public class KalkulatorSegitiga
                 triangulator.IsiAngka2(alas, sisiMiring1, sisiMiring2);
 
                 Angka.close();
-                System.out.println("Luas Segitiga = " + triangulator.hitungKeliling());
+                System.out.println("Keliling Segitiga = " + triangulator.hitungKeliling());
                 break HitungKeliling;
             }
     }
