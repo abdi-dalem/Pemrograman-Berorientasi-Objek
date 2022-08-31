@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Data_Mahasiswa
+{
+    public static void main(String[] args)
+    {
+        Scanner Biodata = new Scanner(System.in);
+
+        System.out.println("BIODATA MAHASISWA");
+        System.out.println("Lengkapilah biodata anda!\n");
+        
+        System.out.println("NIM:");
+        String NIM = Biodata.nextLine();
+        
+        System.out.println("Nama:");
+        String Nama = Biodata.nextLine();
+        
+        System.out.println("Jenis Kelamin:");
+        String Jenis_Kelamin = Biodata.nextLine();
+
+        System.out.println("Alamat:");
+        String Alamat = Biodata.nextLine();
+
+        System.out.println("\nBIODATA:\n");
+        System.out.println("NIM             : " + NIM);
+        System.out.println("Nama            : " + Nama);
+        System.out.println("Jenis Kelamin   : " + Jenis_Kelamin);
+        System.out.println("Alamat          : " + Alamat);
+    }
+} 
