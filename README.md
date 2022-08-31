@@ -1,7 +1,6 @@
 # Pemrograman-Berorientasi-Objek
 
-PRODI INFORMATIKA
-FATISDA UNS
+PRODI INFORMATIKA FATISDA UNS
 
-Nama  : Abdi Santyatmoko
+Nama  : Abdi Santyatmoko \n
 NIM   : M0521001
