@@ -1,0 +1,23 @@
+// Nama : Abdi Santyatmoko
+// NIM  : M0521001
+public class PPBO_02_Latihan2
+{
+    public static final int KURS_DOLLAR = 15000;
+    public static final double PI = 3.14;
+    public static final String NAMA = "Squidward";
+    public static void main(String args[])
+    {
+        KURS_DOLLAR = 13500;
+        System.out.println(KURS_DOLLAR);
+        System.out.println(PI);
+        System.out.println(NAMA);
+    }
+}
+// Apa yang salah dengan source code tersebut?
+// Jawaban :
+// Kesalahan yang terjadi merupakan akibat dari deklarasi nilai KURS_DOLLAR pada main.
+// Padahal, nilai tersebut sudah bersifat final dan tidak dabat diubah. (public static final int KURS_DOLLAR = 15000;)
+// Apa maksud penggunaan keyword static sebelum keyword final pada deklarasi variabel tersebut?
+// Jawaban :
+// Penggunaan keyword static berfungsi agar kita sebagai user dapat memanggil fungsi tersebut dengan menuliskan
+// nama class-nya. Dalam hal ini, class yang dipanggil bersifat final dan tidak dapat diubah (overwrite).
