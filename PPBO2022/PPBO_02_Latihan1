@@ -1,0 +1,19 @@
+// Nama : Abdi Santyatmoko
+// NIM  : M0521001
+public class PPBO_02_Latihan1
+{
+    public static void main(String[] args)
+    {
+        double a, b, c;
+        a = 10.0;
+        b = 3.0;
+        c = 4.3;
+
+        double sum = a + b + c;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        System.out.println("c = " + c);
+        System.out.println("Hasil Penjumlahan a, b, c, = " + sum);
+    }
+}
