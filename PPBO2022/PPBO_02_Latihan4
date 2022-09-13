@@ -1,0 +1,24 @@
+// Nama : Abdi Santyatmoko
+// NIM  : M0521001
+public class PPBO_02_Latihan4
+{
+    public static void main(String[] args)
+    {
+        Person dummy1 = new Person();
+        Person dummy2 = new Person();
+        Person dummy3 = new Person();
+        System.out.println( "Jumlah objek Person yang telah terbuat: " + Person.jumlah);
+        
+        Person dummy4 = new Person();
+        System.out.println( "Jumlah objek Person yang telah terbuat: " + Person.jumlah);
+    }
+}
+
+class Person
+{
+    public static int jumlah = 0;
+    Person()
+    {
+        jumlah++;
+    }
+}
