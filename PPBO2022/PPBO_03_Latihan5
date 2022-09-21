@@ -1,0 +1,25 @@
+// Nama : Abdi Santyatmoko
+// NIM  : M0521001
+
+import java.util.concurrent.TimeUnit;
+
+public class PPBO_03_Latihan5 {
+    public static void main(String[] args) {
+        int i = 0;
+        while (true)
+        {
+            for (i = 3; i <= 300; i+=3)
+            {
+                System.out.println("Hello ke-" + i);
+            }
+            try
+            {
+                TimeUnit.SECONDS.sleep(10);
+            }
+            catch (Exception x)
+            {
+                x.printStackTrace();
+            }
+        }
+    }
+}
