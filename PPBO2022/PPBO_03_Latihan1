@@ -1,0 +1,50 @@
+// Nama : Abdi Santyatmoko
+// NIM  : M0521001
+
+import java.util.Scanner;
+
+public class PPBO_03_Latihan1
+{
+    public static void main(String[] args)
+    {
+        float harga;
+        double hargaBaru;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Total pembelian : ");
+        harga = sc.nextFloat();
+        System.out.println("");
+
+        if (harga > 0 && harga <= 50000)
+        {
+            System.out.println("Transaksi pembelian berhasil!");
+            System.out.println("");
+            System.out.println("Total = " + harga);
+        }
+        else if (harga > 50000 && harga <= 75000)
+        {
+            hargaBaru = (harga - (harga * 0.05));
+            System.out.println("Transaksi pembelian berhasil!");
+            System.out.println("Selamat! Anda mendapatkan diskon sebesar 5%!");
+            System.out.println("");
+            System.out.println("Total = " + hargaBaru);
+        }
+        else if (harga > 75000 && harga <= 125000)
+        {
+            hargaBaru = (harga - (harga * 0.15));
+            System.out.println("Transaksi pembelian berhasil!");
+            System.out.println("Selamat! Anda mendapatkan diskon sebesar 15%!");
+            System.out.println("");
+            System.out.println("Total = " + hargaBaru);
+        }
+        else if (harga > 125000)
+        {
+            hargaBaru = (harga - (harga * 0.2));
+            System.out.println("Transaksi pembelian berhasil!");
+            System.out.println("Selamat! Anda mendapatkan diskon sebesar 20%!");
+            System.out.println("");
+            System.out.println("Total = " + hargaBaru);
+        }
+
+        sc.close();
+    }
+}
