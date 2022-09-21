@@ -1,0 +1,24 @@
+// Nama : Abdi santyatmoko
+// NIM  : M0521001
+
+public class PPBO_03_Latihan3
+{
+    public static void main(String[] args)
+    {
+        int arr[] = {5, 1, 4, 2, 3};
+        for (int i = 0; i < 5; i++) {
+            System.out.println("elemen ke-" + (i + 1) + " = " + arr[i]);
+        }
+    }
+}
+
+// Berikut ini adalah code untuk menampilkan elemen (anggota) sebuah array yang berupa bilangan
+// integer, mulai dari elemen pertama hingga terakhir.
+
+// Eksekusi source code tersebut dan jelaskan apakah penulisan kode perulangan dengan for pada code
+// tersebut sudah tepat dan tuliskan perbaikan apabila diperlukan!
+
+// Jawab:
+// Kode tersebut memerlukan perbaikan karena bila i dimulai dari 1, maka sebenarnya anggota array yang terbaca pertama adalah anggota ke-2, yaitu 1
+// Sehingga bila dijalankan, maka akan menimbulkan exception message dari sistem.
+// Solusi dari permasalahan ini adalah mengubah kondisi i awal menjadi 0.  
